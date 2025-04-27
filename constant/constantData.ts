@@ -30,20 +30,20 @@ import b3 from "../public/blog3.jpg"
       title: "Mastering React for Modern Web Development",
       description: "Learn the key concepts and techniques for building fast and scalable web apps with React.",
       image: b1,
-      link: "/mastering-react",
+      slug: "/mastering-react",
     },
     {
       id: 2,
       title: "10 Tips to Improve Your Frontend Skills",
       description: "Upgrade your frontend skills with these essential tips for modern web design and development.",
       image: b2,
-      link: "/frontend-tips",
+      slug: "/frontend-tips",
     },
     {
       id: 3,
       title: "Exploring AI Tools for Developers",
       description: "Discover the latest AI-powered tools that can boost your productivity as a developer.",
       image: b3,
-      link: "/ai-tools",
+      slug: "/ai-tools",
     },
   ];

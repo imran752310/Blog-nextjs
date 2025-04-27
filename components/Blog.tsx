@@ -1,3 +1,30 @@
+// import { blogs } from "../constant/constantData"; // Import blogs data
+// import Link from "next/link";
+// import Image from "next/image";
+// export default function BlogList() {
+//   return (
+//     <div className="grid grid-cols-3 gap-6">
+//       {blogs.map((blog) => (
+//         <div key={blog.id} className="bg-white p-4 shadow-md rounded-lg">
+//           <Image
+//             src={blog.image}
+//             alt={blog.title}
+//             className="object-cover h-48 w-full"
+//             width={400}
+//             height={200}
+//           />
+//           <h2 className="text-xl font-bold mt-4">{blog.title}</h2>
+//           <p className="mt-2 text-gray-600">{blog.description}</p>
+//           <Link href={blog.link} passHref>
+//             <button className="mt-4 bg-blue-500 text-white p-2 rounded">Read More</button>
+//           </Link>
+//         </div>
+//       ))}
+//     </div>
+//   );
+// }
+
+
 import React from "react";
 import Image from "next/image";
 import { blogs } from "../constant/constantData";
@@ -35,7 +62,7 @@ const Blog = () => {
                   {blog.description}
                 </p>
                 <a
-                  href={`/blog/${blog.link}`}
+                  href={`/blog/${blog.slug}`}
                   className="text-blue-600 font-semibold hover:underline"
                 >
                   Read More →

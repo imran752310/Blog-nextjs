@@ -31,7 +31,7 @@ const Blog = () => {
                     {blog.description}
                   </p>
                   <a
-                href={`/blog/${blog.link}`} // Adjust the href to match your routing logic
+                href={`/blog/${blog.slug}`} // Adjust the href to match your routing logic
                 className="inline-block bg-blue-600 text-white font-semibold px-4 py-2 rounded hover:bg-blue-700 transition-colors duration-200"
               >
                     Read More →

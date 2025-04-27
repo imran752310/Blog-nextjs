@@ -13,7 +13,7 @@ const Hero = () => {
             <h1 className="text-6xl font-extrabold text-gray-900 leading-tight dark:text-white">
               Welcome to HarryBlog
             </h1>
-            <p className="mt-4 text-lg text-gray-600">
+            <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
               Explore amazing articles, tutorials, and insights crafted just for you. Dive into a world of knowledge and creativity!
             </p>
             <div className="mt-6">
