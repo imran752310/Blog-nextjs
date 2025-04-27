@@ -41,9 +41,10 @@ const Blog = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div  className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {blogs.map((blog) => (
             <div
+            data-aos="flip-left"  
               key={blog.id}
               className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-2xl hover:scale-105 transition-transform duration-300 ease-out"
             >

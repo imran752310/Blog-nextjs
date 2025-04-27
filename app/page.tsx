@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import Hero from "@/components/Hero";
 import Blog from "@/components/Blog";
 import OurClient from "@/components/OurClient";
 import PricePlan from "@/components/PricePlan";
 
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+import 'aos/dist/aos.css'; 
 import { useEffect } from "react";
 
 export default function Home() {

@@ -3,7 +3,7 @@ import React from 'react'
 const OurClient = () => {
   return (
     <section className="py-12 bg-white dark:bg-gray-900">
-  <div className="w-[85%] px-4 mx-auto">
+  <div data-aos="zoom-in" className="w-[85%] px-4 mx-auto">
     <div className="text-center mb-12">
       <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-200">What Our Clients Say</h2>
       <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">Hear from our satisfied customers</p>
