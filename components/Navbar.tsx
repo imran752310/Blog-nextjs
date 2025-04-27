@@ -25,10 +25,10 @@ const Navbar = () => {
           <Link href="/blog">Blog</Link>
           <Link href="/contact">Contact</Link>
           <div className="flex justify-center items-center">
-            <Button className="mx-1" variant="outline">
+            <Button className="mx-1 bg-blue-600 hover:bg-blue-500 hover:text-white text-white" variant="outline"> 
               Login
             </Button>
-            <Button className="mx-1" variant="outline">
+            <Button className="mx-1  bg-blue-600 hover:bg-blue-500 hover:text-white text-white" variant="outline">
               Signup
             </Button>
           <ModeToggle />
@@ -67,10 +67,10 @@ const Navbar = () => {
           <Link href="/blog">Blog</Link>
           <Link href="/contact">Contact</Link>
           <div>
-            <Button className="mx-1 text-sx" variant="outline">
+            <Button className="mx-1 text-sx  hover:bg-blue-600 hover:text-white" variant="outline">
               Login
             </Button>
-            <Button className="mx-1 text-sx" variant="outline">
+            <Button className="mx-1 text-sx  hover:bg-blue-600 hover:text-white" variant="outline">
               SignUp
             </Button>
 
